@@ -1,6 +1,7 @@
-import Header from "./components/Header";
-import OrderForm from "./components/OrderForm";
+import Header from "../Header";
+import OrderForm from "../OrderForm";
 import "./style.css";
+import { Analytics } from '@vercel/analytics/react';
 
 function App(){
 
@@ -15,6 +16,8 @@ Kalid Jibril Metal & Wood Work
 </p>
 
 <OrderForm/>
+
+<Analytics />
 
 </div>
 )
