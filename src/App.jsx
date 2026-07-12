@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import Header from "./components/Header";
 import OrderForm from "./components/OrderForm";
 import "./style.css";
@@ -16,6 +17,7 @@ Kalid Jibril Metal & Wood Work
 
 <OrderForm/>
 
+<Analytics />
 </div>
 )
 
